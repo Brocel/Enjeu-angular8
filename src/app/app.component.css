@@ -1,3 +1,7 @@
+h1 {
+  color: white;
+  text-align: center;
+}
 .bGroundImg {
   background-image: url("../assets/img/background/table01.jpg");
   background-repeat: no-repeat;
