@@ -1,4 +1,9 @@
 <h3>{{ joueur.name }} Details</h3>
-<div><span>id: </span>{{joueur.id}}</div>
-<div><span>name: </span>{{joueur.name}}</div>
-<div><span>email: </span>{{joueur.email}}</div>
+  <div><span>id: </span>{{joueur.id}}</div>
+  <div><span>name: </span>{{joueur.name}}</div>
+  <div><span>email: </span>{{joueur.email}}</div>
+
+<h4>Personnage : <h4>
+  <div><span>id: </span>{{joueur.personnage.id}}</div>
+  <div><span>name: </span>{{joueur.personnage.name}}</div>
+  <div><span>image: </span><img src={{joueur.personnage.imgUrl}}><img></div>

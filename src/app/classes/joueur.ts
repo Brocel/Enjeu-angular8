@@ -4,7 +4,6 @@ export class Joueur {
   email: email;
   name: string;
   pword: string;
-
   personnage: Personnage = {
     id: 1,
     name: 'Maya-Rha',
