@@ -11,5 +11,6 @@ export class JoueursComponent implements OnInit {
 
   ngOnInit() {
   }
+  joueur = 'Brocel';
 
 }
