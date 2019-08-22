@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Joueur } from '../classes/joueur';
+import { Personnage } from '../classes/personnage';
 import { PERSONNAGES } from '../mocks/mock-personnage';
 
 @Component({

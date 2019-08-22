@@ -1,4 +1,4 @@
-import { Personnage } from '../classes/personnage';
+import { Personnage } from './classes/personnage';
 
 export const PERSONNAGES: Personnage[] = [
   { id: 1,
@@ -35,5 +35,4 @@ export const PERSONNAGES: Personnage[] = [
     defense: 10,
     intelligence: 10
   }
-
 ];
