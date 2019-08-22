@@ -13,7 +13,6 @@ export class JoueursComponent implements OnInit {
     name: 'Brocel',
     email: 'geenens.prof@gmail.com',
     pword: 'C1secret',
-    personnage: Personnage
   };
 
   constructor() { }
