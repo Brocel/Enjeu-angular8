@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Joueur } from '../classes/joueur';
 
 @Component({
-  selector: 'app-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css']
+  selector: 'app-joueurs',
+  templateUrl: './joueurs.component.html',
+  styleUrls: ['./joueurs.component.css']
 })
-export class HeroesComponent implements OnInit {
+export class JoueursComponent implements OnInit {
   joueur: Joueur = {
     id: 1,
     name: 'Brocel',

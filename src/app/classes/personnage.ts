@@ -7,9 +7,9 @@ export class Personnage {
   metier: string;
   specialite: string;
   caractère: string;
-  taille: string;
-  masse: string;
-  age: string;
+  taille: number;
+  masse: number;
+  age: number;
   description: string;
   inventaire: string;
   force: number;
