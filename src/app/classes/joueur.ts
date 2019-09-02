@@ -1,6 +1,6 @@
 export class Joueur {
   id: number;
-  email: email;
+  mail: email;
   name: string;
   pword: string;
 }
