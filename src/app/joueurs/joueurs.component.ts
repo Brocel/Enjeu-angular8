@@ -12,7 +12,7 @@ export class JoueursComponent implements OnInit {
   joueur: Joueur = {
     id: 1,
     name: 'Brocel',
-    email: 'geenens.prof@gmail.com',
+    mail: 'geenens.prof@gmail.com',
     pword: 'C1secret'
   };
   personnages = PERSONNAGES;

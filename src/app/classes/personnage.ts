@@ -15,5 +15,6 @@ export class Personnage {
   force: number;
   defense: number;
   intelligence: number;
+  
 
 }
